@@ -13,14 +13,14 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace TicTacToe
+namespace TicTacToe.Views
 {
     /// <summary>
-    /// Interaction logic for MainWindow.xaml
+    /// Interaction logic for Menu.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class FileMenu : UserControl
     {
-        public MainWindow()
+        public FileMenu()
         {
             InitializeComponent();
         }
